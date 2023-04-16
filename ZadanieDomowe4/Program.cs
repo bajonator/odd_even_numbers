@@ -15,6 +15,7 @@ namespace ZadanieDomowe4
                 Console.WriteLine("Wpisz jakąś liczbę:");
                 var number = GetInputNumber();
                 Console.WriteLine(GetInformation(number));
+
             }
         }
 
