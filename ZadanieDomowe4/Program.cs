@@ -21,9 +21,9 @@ namespace ZadanieDomowe4
         private static string GetInformation(int number)
         {
             if (number % 2 == 0)
-                return "liczba parzysta";
+                return "liczba parzysta.";
             else
-                return "Liczba nieparzysta";
+                return "Liczba nieparzysta.";
         }
 
         private static int GetInputNumber()
@@ -32,7 +32,7 @@ namespace ZadanieDomowe4
             {
                 if (!int.TryParse(Console.ReadLine(), out int result))
                 {
-                    Console.WriteLine("Podano nieprawidłową wartość.\nWprowadź nowa wartość liczbową");
+                    Console.WriteLine("Podano nieprawidłową wartość.\nWprowadź nowa wartość liczbową.");
                     continue;
                 }
                 return result;
